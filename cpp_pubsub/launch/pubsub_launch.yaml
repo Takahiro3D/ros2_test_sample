@@ -1,0 +1,13 @@
+launch:
+
+- node:
+    pkg: "cpp_pubsub"
+    exec: "talker"
+    name: "talker"
+    namespace: ""
+
+- node:
+    pkg: "cpp_pubsub"
+    exec: "listener"
+    name: "listener"
+    namespace: ""
