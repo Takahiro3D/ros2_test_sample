@@ -18,6 +18,7 @@ colcon test
 The test executes following cases.
 
 | Test size | Test framework | package |
+| --- | --- | --- |
 | Small | lint / gtest / pytest | Each node packages |
 | Medium | launch_testing | Each node packages |
 | Large | launch_pytest | integration |
