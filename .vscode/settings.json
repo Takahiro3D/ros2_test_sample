@@ -1,0 +1,12 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/root/ros2_ws/build/py_accum",
+    "/root/ros2_ws/install/py_accum/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/root/ros2_ws/build/py_accum",
+    "/root/ros2_ws/install/py_accum/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ]
+}

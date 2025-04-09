@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/root/ros2_ws/install/integration/include/**",
+        "/root/ros2_ws/install/cpp_calc/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/root/ros2_ws/src/cpp_calc/include/**",
+        "/root/ros2_ws/src/cpp_pubsub/include/**",
+        "/root/ros2_ws/src/integration/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

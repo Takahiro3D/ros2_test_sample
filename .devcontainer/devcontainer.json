@@ -1,13 +1,7 @@
 {
-  "name": "ROS 2 Workspace humble-ros-base",
-  "remoteUser": "rosdev",
+  "name": "ROS 2 Workspace jazzy-ros-base",
   "build": {
-    "dockerfile": "Dockerfile",
-    "args": {
-      "USERNAME": "rosdev",
-      "GID": "1000",
-      "UID": "1000"
-    }
+    "dockerfile": "Dockerfile"
   },
   "customizations": {
     "vscode": {
@@ -33,9 +27,11 @@
       }
     }
   },
-  "workspaceFolder": "/home/rosdev/ros2_ws",
-  "workspaceMount": "source=${localWorkspaceFolder},target=/home/rosdev/ros2_ws/src,type=bind",
-  "mounts": [],
+  "workspaceFolder": "/root/ros2_ws",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/root/ros2_ws/src,type=bind",
+  "mounts": [
+    "source=${localWorkspaceFolder}/.vscode,target=/root/ros2_ws/.vscode,type=bind"
+  ],
   "runArgs": [
     // "--net=host"
   ]
